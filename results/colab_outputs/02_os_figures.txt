@@ -1,0 +1,4 @@
+Unstable for alpha between 0.875 and 1.075 (grid resolution 0.025)
+Max growth rate: 0.002728730039696941 at alpha = 0.9750000000000001
+Figure(600x450)
+Figure(600x450)

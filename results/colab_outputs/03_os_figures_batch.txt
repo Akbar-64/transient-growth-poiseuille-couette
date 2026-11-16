@@ -1,0 +1,16 @@
+saved fig2_Re5000.png
+saved fig2_Re5700.png
+saved fig2_Re5800.png
+saved fig2_Re6000.png
+saved fig2_Re8000.png
+5800 1.01 1.03
+6000 0.98 1.05
+6500 0.9299999999999999 1.08
+7000 0.8999999999999999 1.08
+8000 0.86 1.0899999999999999
+10000 0.8 1.0899999999999999
+12000 0.76 1.08
+15000 0.72 1.07
+20000 0.6699999999999999 1.04
+zipped: ['fig1_spectrum.png', 'fig2_Re5000.png', 'fig2_Re5700.png', 'fig2_Re5800.png', 'fig2_Re6000.png', 'fig2_Re8000.png', 'fig2_growth_vs_alpha.png', 'fig3_neutral_curve.png']
+Figure(600x450)

@@ -1,0 +1,11 @@
+Re=10000, alpha=1
+  computed c  = (0.23752648884000707+0.003739670397307225j)
+  published c = 0.23752649 + 0.00373967j
+
+Convergence of Im(c):
+  N= 48  Im(c) = 0.00373923
+  N= 64  Im(c) = 0.00373967
+  N= 96  Im(c) = 0.00373967
+  N=128  Im(c) = 0.00373967
+
+Critical Re at alpha=1.02056: 5772.22  (published ~5772.22)

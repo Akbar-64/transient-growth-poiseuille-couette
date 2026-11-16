@@ -1,0 +1,5 @@
+Fitted slope of log Gmax vs log Re (Re >= 400): 1.996 (theory: 2)
+Best beta on this grid: 2.0  (Table 1: 2.04)
+Figure(600x450)
+Figure(600x450)
+Figure(600x450)

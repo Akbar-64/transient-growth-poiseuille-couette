@@ -1,0 +1,6 @@
+Check 1 (Orszag): c = (0.23752648882041644+0.003739670622927349j)  published 0.23752649+0.00373967j
+Check 2: max Re(eigenvalue) at Re=1000, alpha=0, beta=2.04 = -0.0066290010990061364
+Check 2b: G(t=0.001) = 1.0006011279437346 (must be about 1)
+Check 3: Re=  500  Gmax=   49.28 at t=  37.85   |  Table 1:    48.90 at t=  37.88
+Check 3: Re= 1000  Gmax=  196.17 at t=  75.99   |  Table 1:   195.61 at t=  75.76
+Check 3: Re= 2000  Gmax=  783.76 at t= 151.55   |  Table 1:   782.43 at t= 151.52
