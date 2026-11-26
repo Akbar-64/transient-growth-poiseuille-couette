@@ -75,14 +75,11 @@ This regenerates every figure and every output file in `results/`.
 
 To record your own library versions: `python -c "import sys, numpy, scipy, matplotlib; print(sys.version, numpy.__version__, scipy.__version__, matplotlib.__version__)"`
 
-Tested with Python 3.12 on two library sets: numpy 1.26.4 / scipy 1.11.4 / matplotlib 3.8.4, and
-numpy 2.5.4 / scipy 1.18.1 / matplotlib 3.11.2.
-
 ## Results (figures)
 
 The figures in `results/figures/` were produced by the scripts above, run by the author in Google Colab.
 `results/colab_outputs/` holds the printed output of each script from the same run, as text files
-(`01_orr_sommerfeld.txt` to `06_stage2b_figures.txt`).
+(`01_orr_sommerfeld.txt` to `07_absolute_instability.txt`).
 
 | File | Shows | Made by |
 |---|---|---|
