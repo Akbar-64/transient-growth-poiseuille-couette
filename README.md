@@ -68,6 +68,7 @@ then run in notebook cells
 !python transient_growth.py > results/colab_outputs/04_transient_growth.txt
 !python stage2_figures.py   > results/colab_outputs/05_stage2_figures.txt
 !python stage2b_figures.py  > results/colab_outputs/06_stage2b_figures.txt
+!python absolute_instability.py > results/colab_outputs/07_absolute_instability.txt
 !cp fig*.png results/figures/
 ```
 
