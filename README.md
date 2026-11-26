@@ -70,9 +70,6 @@ then run in notebook cells
 !python stage2b_figures.py  > results/colab_outputs/06_stage2b_figures.txt
 !python absolute_instability.py > results/colab_outputs/07_absolute_instability.txt
 !cp fig*.png results/figures/
-!python stage2b_figures.py  > results/colab_outputs/06_stage2b_figures.txt
-!python absolute_instability.py > results/colab_outputs/07_absolute_instability.txt
-!cp fig*.png results/figures/
 ```
 
 This regenerates every figure and every output file in `results/`.
