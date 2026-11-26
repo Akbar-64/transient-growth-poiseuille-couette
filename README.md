@@ -33,9 +33,7 @@ Couette flow: U = y, walls at y = -1 and +1.
 | Peak growth, Couette, Re = 3200, alpha = 0, beta = 1.66 | 11936 | (Re/29.3)^2 = 11928 |
 | Absolute-instability threshold, tanh mixing layer, inviscid | R = 1.3157 | 1.315 (Huerre and Monkewitz 1985) |
 
-The numbers above were reproduced in independent runs (the author's Google Colab session and a separate
-local Python 3.12 run); the runs agree to the digits shown. Exact trailing digits can differ slightly between
-machines and library versions.
+The numbers above were produced in the author's Google Colab session (printed outputs in results/colab_outputs/) and independently reproduced in a separate Python 3.12 test environment by the AI assistant that helped write the code. The runs agree to the digits shown. Exact trailing digits can differ slightly between machines and library versions. The AI assistant also tested the scripts with Python 3.12 on two library sets: numpy 1.26.4 / scipy 1.11.4 / matplotlib 3.8.4, and numpy 2.5.4 / scipy 1.18.1 / matplotlib 3.11.2.
 
 Table 1 of Trefethen et al. (1993) gives asymptotic values, stated accurate to about 1% for Re > 100.
 It reports amplitude growth; this code reports energy growth, which is its square.
