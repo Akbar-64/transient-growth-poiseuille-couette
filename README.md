@@ -31,6 +31,7 @@ Couette flow: U = y, walls at y = -1 and +1.
 | Peak growth, Poiseuille, Re = 2000 | 783.8 | 782.4 |
 | Scaling of peak growth with Re (Re >= 400) | slope 2.00 (log-log) | 2 |
 | Peak growth, Couette, Re = 3200, alpha = 0, beta = 1.66 | 11936 | (Re/29.3)^2 = 11928 |
+| Absolute-instability threshold, tanh mixing layer, inviscid | R = 1.3157 | 1.315 (Huerre and Monkewitz 1985) |
 
 The numbers above were reproduced in independent runs (the author's Google Colab session and a separate
 local Python 3.12 run); the runs agree to the digits shown. Exact trailing digits can differ slightly between
@@ -51,6 +52,7 @@ python os_figures_batch.py      # per-Re growth plots, neutral curve (figure 3),
 python transient_growth.py      # Stage 2 checks against Trefethen et al. Table 1
 python stage2_figures.py        # figures 4 to 6
 python stage2b_figures.py       # figures 7 to 9: (alpha, beta) maps, Couette, optimal perturbation
+python absolute_instability.py  # stage 3A: absolute-instability benchmark (tanh mixing layer)
 ```
 
 Figures are written to the folder you run the scripts from.
@@ -96,6 +98,7 @@ The figures in `results/figures/` were produced by the scripts above, run by the
 | `fig7_alpha_beta_map.png` | Peak growth over the (alpha, beta) plane, Poiseuille and Couette | `stage2b_figures.py` |
 | `fig8_poiseuille_vs_couette.png` | Peak growth against Re, both flows | `stage2b_figures.py` |
 | `fig9_optimal_perturbation.png` | Optimal perturbation: streamwise vortices turning into streaks | `stage2b_figures.py` |
+| `fig10_absolute_instability_benchmark.png` | Im(omega) at the saddle point against R; zero crossing at R = 1.3157 | `absolute_instability.py` |
 
 ## Method notes
 
@@ -113,6 +116,7 @@ The figures in `results/figures/` were produced by the scripts above, run by the
 * Linear theory only, one Fourier mode at a time, channel geometry (not pipe flow).
 * Benchmarked at the parameters listed above; accuracy at much higher Re has not been tested.
 * No nonlinear stage, no direct numerical simulation.
+* The absolute-instability solver (stage 3A) is inviscid and does not check the pinch condition. It is validated by reproducing the published threshold of the tanh mixing layer.
 
 ## References
 
